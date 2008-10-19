@@ -1,0 +1,29 @@
+* WHAT
+
+8ttpd is (well, will be) a JavaScriptable HTTP server using libevent
+and V8, that basically follows (well, will follow) the Rack webserver
+interface.
+
+Early release! It's Sunday evening, I'm tired, and I don't know any C++...
+
+* BUILD
+
+g++ -levent 8ttpd.cc /path/to/libv8.a -o 8ttpd
+
+(for some reason doesn't work with -lv8)
+
+* RUN
+
+8ttpd sample.js
+
+Goto to http://localhost:8080
+
+* MORE
+
+libevent: http://monkey.org/~provos/libevent/
+      V8: http://code.google.com/p/v8/
+    Rack: http://rack.rubyforge.org/doc/files/SPEC.html
+
+* BY
+
+Manuel Simoni, 2008-10-19
