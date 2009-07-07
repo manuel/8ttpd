@@ -1,3 +1,10 @@
+* CANCELLED
+
+Server-side JavaScript (SSJS) outside of a virtual machine with a
+large library is a waste of time.
+
+Old description follows:
+
 * WHAT
 
 8ttpd is (well, will be) a JavaScriptable HTTP server using libevent
